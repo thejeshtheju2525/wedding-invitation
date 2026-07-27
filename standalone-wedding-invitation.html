@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chaithanya & Udayasree | Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root{--wine:#761f32;--deep:#4d1121;--cream:#f9f2e8;--gold:#bd8d4b;--ink:#342521;--muted:#806c64}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-snap-type:y proximity}body{width:100%;margin:0;overflow-x:hidden;color:var(--ink);background:#fffaf3;font-family:"DM Sans",sans-serif}main{width:100%}main>header,main>section{position:relative;width:100%;min-height:100svh;scroll-snap-align:start;scroll-snap-stop:normal}a{color:inherit;text-decoration:none}
+    nav{position:absolute;z-index:5;top:0;width:100%;padding:26px 6vw;display:flex;align-items:center;justify-content:space-between}.logo{font:600 26px "Cormorant Garamond";letter-spacing:.1em}.logo span{color:var(--gold);font-style:italic}.links{display:flex;gap:30px;font-size:10px;letter-spacing:.18em;text-transform:uppercase}.rsvp-link{border:1px solid var(--wine);padding:10px 20px;font-size:10px;letter-spacing:.15em;text-transform:uppercase}
+    .hero{position:relative;min-height:100vh;display:grid;place-items:center;overflow:hidden;text-align:center;padding:100px 20px 60px;background:radial-gradient(circle at 15% 20%,#ead8c4 0,transparent 25%),radial-gradient(circle at 85% 75%,#ead8c4 0,transparent 23%),var(--cream)}.hero:before,.hero:after{content:"";position:absolute;width:42vw;height:42vw;border:1px solid #d8bdb5;border-radius:50%}.hero:before{left:-25vw;bottom:-15vw}.hero:after{right:-26vw;top:-16vw}.hero>div{z-index:1}.eyebrow,.kicker{color:var(--wine);font-size:10px;letter-spacing:.28em;text-transform:uppercase}.hero h1{margin:20px 0 22px;color:var(--wine);font:500 clamp(72px,12vw,150px)/.72 "Cormorant Garamond"}.hero h1 span{display:block}.hero h1 span:last-child{padding-bottom:.09em}.hero h1 i{display:block;color:var(--gold);font-size:.45em;line-height:.82}.invite{display:block;margin-top:0;color:var(--muted);font:italic 20px "Cormorant Garamond"}.date{display:flex;align-items:center;justify-content:center;margin:28px 0 35px;color:var(--wine);font-size:10px;letter-spacing:.18em;text-transform:uppercase}.date strong{margin:0 18px;padding:0 18px;border-left:1px solid var(--gold);border-right:1px solid var(--gold);font:500 42px "Cormorant Garamond";letter-spacing:0}.button{display:inline-flex;gap:25px;background:var(--wine);color:white;padding:17px 23px;font-size:10px;letter-spacing:.15em;text-transform:uppercase}
+    section{padding:clamp(70px,9vh,110px) 7vw}.quote{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;background:white}.quote blockquote{width:min(100%,900px);margin:25px auto;color:var(--wine);font:italic clamp(38px,5vw,65px)/1.05 "Cormorant Garamond"}.quote small{color:var(--gold)}
+    h2{color:var(--wine);font:500 clamp(48px,6vw,78px)/.98 "Cormorant Garamond";margin:18px 0 25px}.story{display:grid;grid-template-columns:1fr 1fr;gap:8%;align-items:center;background:var(--cream)}.art{height:min(68vh,640px);min-height:500px;overflow:hidden;border:1px solid #d5b797;border-radius:260px 260px 0 0;background:#d9bfa7;box-shadow:-30px 20px 0 #d9bfa7}.art img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 42%}.story p{color:var(--muted);font:18px/1.7 "Cormorant Garamond"}
+    .events{display:flex;flex-direction:column;justify-content:center;text-align:center}.intro{max-width:560px;margin:0 auto 50px;color:var(--muted);line-height:1.7}.grid{width:min(100%,1280px);margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);align-items:center}.card{min-height:400px;padding:48px 26px;border:1px solid #ddcdbd;background:white}.card.featured{min-height:445px;padding-top:68px;border:0;background:var(--wine);color:white;box-shadow:0 20px 45px #4d112133}.icon{color:var(--gold);font:42px "Cormorant Garamond"}.event-date{color:var(--gold);font-size:9px;letter-spacing:.17em;text-transform:uppercase}.card h3{color:var(--wine);font:500 40px "Cormorant Garamond";margin:12px}.featured h3{color:white}.card p:last-of-type{color:var(--muted);font:16px/1.6 "Cormorant Garamond"}.featured p:last-of-type{color:#ead9da}.card small{display:block;margin-top:30px;padding-top:18px;border-top:1px solid #ddcdbd;font-size:8px;letter-spacing:.15em;text-transform:uppercase}
+    .count{display:flex;flex-direction:column;align-items:center;justify-content:center;background:var(--wine);color:white;text-align:center}.count h2{color:white}.timer{display:flex;justify-content:center;gap:10px;margin-top:45px}.time{width:125px;padding:22px 8px;border:1px solid #ffffff44}.time b{display:block;font:500 48px "Cormorant Garamond"}.time span{color:#d9b475;font-size:8px;letter-spacing:.18em;text-transform:uppercase}
+    .venue{display:grid;grid-template-columns:1fr 1fr;gap:8%;align-items:center;background:var(--cream)}.map{position:relative;min-height:430px;overflow:hidden;border:1px solid #d6b993;background:#e0d8c8;box-shadow:20px 20px 0 #ead7c2}.map img{display:block;width:100%;height:100%;min-height:430px;object-fit:cover;object-position:center}.venue p{color:var(--muted);font:18px/1.6 "Cormorant Garamond"}
+    .rsvp{display:grid;grid-template-columns:.8fr 1.2fr;gap:8%;background:var(--deep);color:white}.rsvp h2{color:white}.rsvp p{color:#d8c3c5;line-height:1.7}form{display:grid;gap:20px}label{color:#e5d6d7;font-size:9px;letter-spacing:.17em;text-transform:uppercase}input,select,textarea{width:100%;margin-top:8px;padding:12px 2px;color:white;background:transparent;border:0;border-bottom:1px solid #ffffff55;outline:0;font:15px "DM Sans"}option{color:var(--ink)}.row{display:grid;grid-template-columns:1fr 1fr;gap:25px}button{width:max-content;padding:16px 25px;border:0;background:var(--gold);color:white;cursor:pointer;font-size:10px;letter-spacing:.16em;text-transform:uppercase}.thanks{display:none;padding:45px;border:1px solid #ffffff44;text-align:center}.thanks h3{font:50px "Cormorant Garamond";margin:10px}.thanks span{color:var(--gold);font-size:30px}
+    footer{text-align:center;padding:48px 20px;background:white;color:var(--wine)}footer .wedding-signoff{margin:0 0 16px;font:italic 20px "Cormorant Garamond"}footer .copyright{margin:0;color:var(--muted);font:11px/1.8 "DM Sans";letter-spacing:.06em}footer .copyright a{transition:color .2s}footer .copyright a:hover{color:var(--wine)}
+    body.locked{overflow:hidden}
+    .envelope-intro{position:fixed;z-index:9999;inset:0;display:grid;place-items:center;overflow:hidden;background:radial-gradient(circle at 50% 35%,#f9f0e4 0,#e9d8c5 62%,#d5bba4 100%);transition:opacity .8s ease,visibility .8s ease}
+    .envelope-intro.hidden{opacity:0;visibility:hidden;pointer-events:none}
+    .intro-heading{position:absolute;top:8vh;text-align:center;color:var(--wine);transition:opacity .35s ease}.intro-heading p{margin:0 0 8px;font-size:9px;letter-spacing:.32em;text-transform:uppercase}.intro-heading h2{margin:0;font-size:clamp(30px,4vw,52px);font-style:italic}
+    .envelope-scene{position:relative;width:min(760px,84vw);height:min(480px,56vw);min-height:310px;perspective:1400px;filter:drop-shadow(0 30px 30px #6846313c);transition:transform .9s ease}
+    .envelope{position:absolute;inset:0;top:18%;height:82%;background:#ead3bc;border:1px solid #c9a98c}
+    .envelope:before,.envelope:after{content:"";position:absolute;z-index:3;bottom:0;width:51%;height:100%;background:#f3e1ce}
+    .envelope:before{left:0;clip-path:polygon(0 0,100% 50%,100% 100%,0 100%)}
+    .envelope:after{right:0;clip-path:polygon(100% 0,0 50%,0 100%,100% 100%)}
+    .envelope-bottom{position:absolute;z-index:4;inset:auto 0 0;height:72%;background:#e8ceb5;clip-path:polygon(0 100%,50% 18%,100% 100%)}
+    .letter-card{position:absolute;z-index:1;left:7%;right:7%;bottom:7%;height:88%;display:flex;flex-direction:column;align-items:center;justify-content:center;border:1px solid #d6b98f;background:#fffaf1;color:var(--wine);text-align:center;transition:transform 1.1s cubic-bezier(.2,.8,.2,1) .35s;box-shadow:0 8px 25px #5d38201c}
+    .letter-card:before{content:"";position:absolute;inset:14px;border:1px solid #d8b06f}
+    .letter-card small{font-size:8px;letter-spacing:.3em;text-transform:uppercase}.letter-card strong{width:90%;margin:12px auto 4px;text-align:center;font:500 clamp(28px,4.8vw,60px)/.95 "Cormorant Garamond";white-space:nowrap}.letter-card .card-amp{color:var(--gold);font-style:italic}.letter-card i{color:var(--gold);font:20px "Cormorant Garamond"}
+    .flap{position:absolute;z-index:6;top:18%;left:0;width:100%;height:53%;transform-origin:top center;transform-style:preserve-3d;transition:transform 1s cubic-bezier(.3,.7,.2,1);background:#e3c7aa;clip-path:polygon(0 0,100% 0,50% 100%)}
+    .flap:after{content:"";position:absolute;inset:1px;background:#f0dac3;clip-path:polygon(0 0,100% 0,50% 100%)}
+    .wax-seal{position:absolute;z-index:8;left:50%;top:57%;width:112px;height:112px;padding:24px 9px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;overflow:visible;transform:translate(-50%,-50%);border:0;border-radius:50%;background:radial-gradient(circle at 35% 28%,#a84455,#741d31 58%,#4b1020 100%);color:#f7e3ca;box-shadow:0 5px 10px #4a172555,inset 0 0 0 5px #ffffff12,inset 0 0 0 7px #4a102350;cursor:pointer;transition:transform .3s ease,opacity .3s ease;text-transform:none;text-align:center}
+    .wax-seal:before{content:"";position:absolute;inset:-7px;border-radius:46% 54% 51% 49%;border:3px solid #772038;transform:rotate(18deg)}.wax-seal:hover{transform:translate(-50%,-50%) scale(1.08)}.wax-seal .seal-name{position:relative;z-index:1;display:block;width:100%;margin:0;text-align:center;font:600 14px/1 "Cormorant Garamond";letter-spacing:0;white-space:nowrap}.wax-seal .seal-amp{position:relative;z-index:1;display:block;width:100%;text-align:center;color:#d8af75;font:italic 11px/1 "Cormorant Garamond"}
+    .open-note{position:absolute;bottom:-42px;left:0;right:0;text-align:center;color:#745b50;font-size:9px;letter-spacing:.24em;text-transform:uppercase;transition:opacity .3s}
+    .envelope-intro.opening .flap{transform:rotateX(180deg);z-index:0}.envelope-intro.opening .wax-seal{opacity:0;transform:translate(-50%,-50%) scale(.35);pointer-events:none}.envelope-intro.opening .letter-card{transform:translateY(-58%)}.envelope-intro.opening .intro-heading,.envelope-intro.opening .open-note{opacity:0}.envelope-intro.opening .envelope-scene{transform:translateY(12vh) scale(.92)}
+    .flower-rain{position:fixed;z-index:9998;inset:0;overflow:hidden;pointer-events:none}.falling-flower{position:absolute;top:-60px;color:var(--flower-color);font-size:var(--flower-size);opacity:.9;animation:flowerFall var(--fall-time) linear forwards,flowerSway 2.4s ease-in-out infinite alternate;filter:drop-shadow(0 3px 2px #5f203028)}
+    .page-arrow{position:absolute;z-index:20;left:50%;bottom:24px;width:48px;height:48px;padding:0;display:grid;place-items:center;transform:translateX(-50%);border:1px solid #761f3266;border-radius:50%;background:#fffaf3dd;color:var(--wine);font:24px/1 "DM Sans";letter-spacing:0;text-transform:none;box-shadow:0 8px 24px #4d112122;cursor:pointer;animation:arrowBounce 1.7s ease-in-out infinite;transition:background .25s,color .25s,border-color .25s}.page-arrow:hover{background:var(--wine);color:white;border-color:var(--wine)}.count .page-arrow,.rsvp .page-arrow{border-color:#ffffff66;background:#ffffff16;color:white}.count .page-arrow:hover,.rsvp .page-arrow:hover{background:white;color:var(--wine)}.page-arrow:focus-visible{outline:3px solid var(--gold);outline-offset:4px}
+    @keyframes arrowBounce{0%,100%{transform:translate(-50%,0)}50%{transform:translate(-50%,8px)}}
+    @keyframes flowerFall{to{top:110vh;transform:rotate(620deg)}}@keyframes flowerSway{from{margin-left:-24px}to{margin-left:24px}}
+    @media(min-width:761px) and (max-width:1100px){
+      section{padding-left:5vw;padding-right:5vw}
+      .story,.venue{grid-template-columns:.9fr 1.1fr;gap:6%}
+      .story h2,.venue h2{font-size:56px}
+      .art{height:min(62vh,560px);min-height:440px}
+      .grid{grid-template-columns:repeat(2,1fr);gap:12px}.card{padding-left:22px;padding-right:22px}.card h3{font-size:38px}
+      .rsvp{grid-template-columns:1fr 1.25fr;gap:6%}
+      .envelope-scene{width:min(720px,82vw)}
+    }
+    @media(max-width:760px){
+      html{scroll-snap-type:none}main>header,main>section{min-height:auto}
+      section{padding:80px 6vw 95px}.hero{min-height:100svh;padding:110px 5vw 85px}.quote,.count{min-height:100svh}
+      nav{padding:20px 5vw}.logo{font-size:23px}.links{display:none}.rsvp-link{padding:9px 14px}
+      .hero h1{font-size:clamp(64px,21vw,82px)}.hero .invite{font-size:18px}.date{margin:24px 0 30px}.date strong{margin:0 11px;padding:0 12px}
+      .story,.venue,.rsvp{grid-template-columns:1fr;gap:55px}.story{min-height:100svh!important;grid-template-rows:minmax(290px,43svh) auto;align-content:center;gap:24px;padding-top:52px;padding-bottom:82px}.story>div:last-child{padding-top:0}.story h2{margin:8px 0 13px;font-size:clamp(39px,11vw,50px);line-height:.92}.story p{margin:7px 0;font-size:15px;line-height:1.42}
+      .art{width:100%;height:100%;min-height:0;max-height:none;border-radius:48vw 48vw 0 0;box-shadow:-14px 14px 0 #d9bfa7}.art img{object-position:center 42%}
+      h2{font-size:clamp(43px,14vw,62px)}.story p,.venue p{font-size:17px}
+      .events{min-height:100svh!important;padding:48px 16px 76px;justify-content:center}.events h2{margin:8px 0 10px;font-size:clamp(42px,12vw,54px);line-height:.9}.events .intro{margin:0 auto 20px;font-size:13px;line-height:1.45}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.card,.card.featured{min-height:210px;padding:18px 9px;display:flex;flex-direction:column;align-items:center;justify-content:center}.card .icon{font-size:29px;line-height:1}.card .event-date{margin:10px 0 4px;font-size:7px;letter-spacing:.1em}.card h3{margin:5px 0;font-size:29px;line-height:1}.card b{font-size:9px;line-height:1.3}.card>p:last-of-type{display:none}.card small{width:100%;margin-top:13px;padding-top:10px;font-size:6.5px;line-height:1.35;letter-spacing:.09em}
+      .timer{width:100%;gap:5px}.time{width:23%;padding:18px 3px}.time b{font-size:34px}.time span{font-size:7px;letter-spacing:.1em}
+      .map,.map img{min-height:340px}.map{box-shadow:12px 12px 0 #ead7c2}.row{grid-template-columns:1fr}
+      input,select,textarea{font-size:16px}.rsvp form{width:100%}
+      .page-arrow{bottom:18px;width:44px;height:44px}
+      .envelope-scene{width:92vw;height:65vw;min-height:290px}.wax-seal{width:104px;height:104px;padding:22px 9px}.wax-seal .seal-name{font-size:12.5px}.letter-card strong{font-size:clamp(28px,8vw,40px);line-height:.82;white-space:normal}.letter-card .card-amp{display:block;font-size:.72em;line-height:.8;margin:5px 0}.intro-heading{top:9vh}
+    }
+    @media(max-width:430px){
+      section{padding-left:20px;padding-right:20px}.hero h1{font-size:66px}
+      .eyebrow,.kicker{letter-spacing:.2em}.date{font-size:8px}.date strong{font-size:36px}
+      .button{gap:16px;padding:15px 17px}.quote blockquote{font-size:39px}
+      .story{grid-template-rows:minmax(260px,40svh) auto;gap:20px;padding-top:45px;padding-bottom:78px}.story h2{font-size:39px}.story p{font-size:14px;line-height:1.38}.art{height:100%;min-height:0}.events{padding-left:12px;padding-right:12px}.events h2{font-size:41px}.events .intro{font-size:12px;margin-bottom:16px}.grid{width:100%;gap:7px}.card,.card.featured{min-height:195px;padding:15px 7px}.card h3{font-size:25px}.card .event-date{font-size:6.5px}.card small{font-size:6px}
+      .count h2{font-size:46px}.rsvp{gap:35px}
+      .envelope-scene{height:72vw;min-height:270px}.envelope{top:20%;height:78%}.flap{top:20%}.wax-seal{top:58%;width:92px;height:92px;padding:19px 6px}.wax-seal .seal-name{font-size:11.5px}.letter-card{left:5%;right:5%}.letter-card strong{font-size:30px}.letter-card small{font-size:6px}.letter-card i{font-size:16px}.open-note{bottom:-34px}
+    }
+    @media(max-height:520px) and (orientation:landscape){
+      .intro-heading{display:none}.envelope-scene{width:62vw;height:39vw;min-height:230px;max-height:330px}.wax-seal{width:88px;height:88px;padding:18px 6px}.wax-seal .seal-name{font-size:11px}.open-note{bottom:-28px}
+      .hero{min-height:720px}.quote,.count{min-height:620px}.art{height:520px}.page-arrow{bottom:12px}
+    }
+    @media(max-height:760px) and (min-width:761px){section{padding-top:55px;padding-bottom:55px}.hero h1{font-size:88px}.hero{padding-top:80px}.quote blockquote{font-size:50px}.story h2,.events h2,.venue h2,.rsvp h2,.count h2{font-size:54px}.card{min-height:330px;padding:30px 26px}.card.featured{min-height:365px;padding-top:43px}.card p:last-of-type{margin:10px 0}.card small{margin-top:15px}.art{min-height:400px}}
+  </style>
+</head>
+<body class="locked">
+  <div class="envelope-intro" id="envelopeIntro">
+    <div class="intro-heading"><p>You are cordially invited</p><h2>A celebration of love</h2></div>
+    <div class="envelope-scene">
+      <div class="envelope">
+        <div class="letter-card"><small>Together with their families</small><strong>Chaithanya <span class="card-amp">&</span> Udayasree</strong><i>29–30 August 2026</i></div>
+        <div class="envelope-bottom"></div>
+      </div>
+      <div class="flap"></div>
+      <button class="wax-seal" id="openInvitation" aria-label="Open Chaithanya and Udayasree's wedding invitation"><span class="seal-name">Chaithanya</span><span class="seal-amp">&</span><span class="seal-name">Udayasree</span></button>
+      <p class="open-note">Press the seal to open</p>
+    </div>
+  </div>
+  <div class="flower-rain" id="flowerRain" aria-hidden="true"></div>
+  <nav><a class="logo" href="#">U <span>&</span> C</a><div class="links"><a href="#story">Our story</a><a href="#events">Events</a><a href="#venue">Venue</a></div><a class="rsvp-link" href="#venue">Venue</a></nav>
+  <main>
+    <header class="hero"><div><p class="eyebrow">Together with their families</p><h1><span>Chaithanya</span><i>&</i><span>Udayasree</span></h1><p class="invite">Joyfully invite you to celebrate their wedding</p><div class="date"><span>Saturday<br>— Sunday</span><strong>29–30</strong><span>August<br>2026</span></div><a class="button" href="#events">View celebrations →</a></div></header>
+    <section class="quote"><p class="kicker">A new chapter begins</p><blockquote>“In all the world, there is no heart for me like yours.”</blockquote><small>— Maya Angelou</small></section>
+    <section class="story" id="story"><div class="art"><img src="couple-photo.jpg" alt="The happy couple"></div><div><p class="kicker">Our story</p><h2>From a simple hello to forever.</h2><p>We met on a rainy Hyderabad afternoon, over two cups of chai and a conversation that never seemed to end.</p><p>Four beautiful years and one unforgettable proposal later, we’re ready for our greatest journey yet.</p></div></section>
+    <section class="events" id="events"><p class="kicker">Save the dates</p><h2>Our wedding celebrations</h2><p class="intro">Four joyful moments, one beautiful beginning. We would be honored to have you with us.</p><div class="grid">
+      <article class="card"><div class="icon">❋</div><p class="event-date">Thursday, 27 August</p><h3>Mehendi</h3><b>Celebrations begin</b><p>An afternoon of intricate henna, color, laughter and beautiful traditions.</p><small>Colorful festive wear</small></article>
+      <article class="card"><div class="icon">☼</div><p class="event-date">Friday, 28 August</p><h3>Haldi</h3><b>Morning celebration</b><p>A sun-kissed morning of turmeric, laughter and joyful blessings.</p><small>Shades of yellow</small></article>
+      <article class="card"><div class="icon">♕</div><p class="event-date">Saturday, 29 August</p><h3>Reception</h3><b>Evening celebration</b><p>An elegant evening of togetherness, dinner and celebration with loved ones.</p><small>Festive elegance</small></article>
+      <article class="card featured"><div class="icon">∞</div><p class="event-date">Sunday, 30 August</p><h3>Muhurtham</h3><b>7:30 AM</b><p>The sacred wedding ceremony, followed by blessings and celebration.</p><small>Traditional elegance</small></article>
+    </div></section>
+    <section class="count"><p class="kicker" style="color:#d9b475">Counting down to forever</p><h2>Every second brings us closer</h2><div class="timer"><div class="time"><b id="days">00</b><span>Days</span></div><div class="time"><b id="hours">00</b><span>Hours</span></div><div class="time"><b id="minutes">00</b><span>Minutes</span></div><div class="time"><b id="seconds">00</b><span>Seconds</span></div></div></section>
+    <section class="venue" id="venue"><div><p class="kicker">The venue</p><h2>USM Kalyana Mandapam</h2><p>32, Cross, near to Vallhabha Milk Products Pvt Ltd,<br>Kanipakam, Patnam, Andhra Pradesh 517131</p><a class="button" target="_blank" rel="noopener" href="https://maps.app.goo.gl/fKfrWikp1MZXJEgs6?g_st=ic">View on Maps ↗</a></div><div class="map"><img src="venue-photo.png" alt="USM Kalyana Mandapam"></div></section>
+  </main>
+  <footer>
+    <p class="wedding-signoff">Chaithanya & Udayasree • 29–30 August 2026 • Kanipakam</p>
+    <p class="copyright">© 2026 Kanchi Thejesh Reddy<br><a href="mailto:kanchithejeshreddy@gmail.com">kanchithejeshreddy@gmail.com</a> • <a href="tel:+917013960572">7013960572</a></p>
+  </footer>
+  <script>
+    const wedding = new Date("2026-08-30T07:30:00+05:30");
+    function updateTimer(){const d=Math.max(0,wedding-Date.now());const values={days:Math.floor(d/86400000),hours:Math.floor(d/3600000%24),minutes:Math.floor(d/60000%60),seconds:Math.floor(d/1000%60)};for(const [id,value] of Object.entries(values))document.getElementById(id).textContent=String(value).padStart(2,"0")}
+    updateTimer();setInterval(updateTimer,1000);
+    const intro=document.getElementById("envelopeIntro"),rain=document.getElementById("flowerRain"),openButton=document.getElementById("openInvitation");
+    function addFlower(delay=0){setTimeout(()=>{const flower=document.createElement("span");const symbols=["✿","❀","❁","✾","❋"];const colors=["#761f32","#bd8d4b","#d78b98","#f1c9aa","#9c3850"];flower.className="falling-flower";flower.textContent=symbols[Math.floor(Math.random()*symbols.length)];flower.style.left=Math.random()*100+"vw";flower.style.setProperty("--flower-color",colors[Math.floor(Math.random()*colors.length)]);flower.style.setProperty("--flower-size",16+Math.random()*24+"px");flower.style.setProperty("--fall-time",4+Math.random()*4+"s");rain.appendChild(flower);setTimeout(()=>flower.remove(),8500)},delay)}
+    openButton.addEventListener("click",()=>{intro.classList.add("opening");for(let i=0;i<42;i++)addFlower(i*90);setTimeout(()=>{intro.classList.add("hidden");document.body.classList.remove("locked");window.scrollTo(0,0)},1700);setTimeout(()=>{for(let i=0;i<24;i++)addFlower(i*140)},1850)});
+    const pages=[...document.querySelectorAll("main > header, main > section")];
+    pages.forEach((page,index)=>{if(index===pages.length-1)return;const arrow=document.createElement("button");arrow.className="page-arrow";arrow.type="button";arrow.innerHTML="↓";arrow.setAttribute("aria-label","Go to next section");arrow.addEventListener("click",()=>pages[index+1].scrollIntoView({behavior:"smooth",block:"start"}));page.appendChild(arrow)});
+  </script>
+</body>
+</html>
